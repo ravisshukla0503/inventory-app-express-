@@ -1,0 +1,39 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add-Item</title>
+  </head>
+  <body>
+    <form method="post" action="/add">
+      <ul>
+        <li>
+          <input type="text" name="item" placeholder="Enter Item" /><br />
+        </li>
+        <li>
+          <input
+            type="text"
+            name="category"
+            placeholder="Enter Category" /><br />
+        </li>
+        <li>
+          <input type="text" name="price" placeholder="Enter Price" /><br />
+        </li>
+        <li>
+          <textarea
+            type="text"
+            name="description"
+            placeholder="Enter Description"></textarea
+          ><br />
+        </li>
+        <button type="submit">Add Item</button>
+      </ul>
+    </form>
+  </body>
+</html>
+
+
